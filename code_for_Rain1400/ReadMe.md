@@ -1,3 +1,13 @@
+Requirements
+========
+
+Linux
+
+pytorch
+
+python3.6
+
+
 Training
 ======
 
