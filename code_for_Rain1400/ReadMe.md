@@ -4,6 +4,6 @@ Unzip'rainy_image.zip', 'blurred_label.zip' and'reference_clean_image.zip' in '.
 
 Make sure the training images are in the'./datasets/train/rainy_image/' ,'./datasets/train/blurred_label/' and ./datasets/train/reference_clean_image/', respectively.
 
-##Train the deraining model:
+#Train the deraining model:
 
 python train.py --dataroot ./datasets/train/rainy_image/ --name new --model derain
