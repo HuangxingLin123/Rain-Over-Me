@@ -21,11 +21,11 @@ Unzip'rainy_image.zip' and 'ground_truth.zip' in './datasets/test/'.
 
 - Test:
 
-*python test.py --dataroot ./datasets/test/rainy_image/ --name new --model derain
+*python test.py --dataroot ./datasets/test/rainy_image/ --name new --model derain*
 
 - Test with our pretrained model
 
-*python test.py --dataroot ./datasets/test/rainy_image/ --name pretrained --model derain
+*python test.py --dataroot ./datasets/test/rainy_image/ --name pretrained --model derain*
 
 After the test, results are saved in './results/'.
 
