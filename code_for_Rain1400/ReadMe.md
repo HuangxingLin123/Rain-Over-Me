@@ -19,11 +19,11 @@ Download the testing dataset from [Google Drive](https://drive.google.com/drive/
 
 Unzip'rainy_image.zip' and 'ground_truth.zip' in './datasets/test/'.
 
--Test:
+- Test:
 
 python test.py --dataroot ./datasets/test/rainy_image/ --name new --model derain
 
--Test with our pretrained model
+- Test with our pretrained model
 
 python test.py --dataroot ./datasets/test/rainy_image/ --name pretrained --model derain
 
