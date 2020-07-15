@@ -33,7 +33,7 @@ Unzip'rainy_image.zip' and 'ground_truth.zip' in './datasets/test/'.
 
 *python test.py --dataroot ./datasets/test/rainy_image/ --name new --model derain*
 
-- Test with our pretrained model
+- Test with our pretrained model:
 
 *python test.py --dataroot ./datasets/test/rainy_image/ --name pretrained --model derain*
 
