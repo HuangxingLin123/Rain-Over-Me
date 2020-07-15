@@ -9,7 +9,7 @@ Make sure the training images are in the'./datasets/train/rainy_image/' ,'./data
 
 - Train the deraining model:
 
-python train.py --dataroot ./datasets/train/rainy_image/ --name new --model derain
+*python train.py --dataroot ./datasets/train/rainy_image/ --name new --model derain*
 
 
 Testing
@@ -21,11 +21,11 @@ Unzip'rainy_image.zip' and 'ground_truth.zip' in './datasets/test/'.
 
 - Test:
 
-python test.py --dataroot ./datasets/test/rainy_image/ --name new --model derain
+*python test.py --dataroot ./datasets/test/rainy_image/ --name new --model derain
 
 - Test with our pretrained model
 
-python test.py --dataroot ./datasets/test/rainy_image/ --name pretrained --model derain
+*python test.py --dataroot ./datasets/test/rainy_image/ --name pretrained --model derain
 
 After the test, results are saved in './results/'.
 
