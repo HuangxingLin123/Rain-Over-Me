@@ -43,4 +43,4 @@ Run "psnr_and_ssim.py" to caculate psnr and ssim.
 
 Note:
 ========
-The training process of this method is somewhat unstable. If you find that loss "hard_ssim" is always 0.000 in epoch 1, stop the code and rerun.
+For DID data, the training process is somewhat unstable. If you find that loss "hard_ssim" is always 0.000 in epoch 1, stop the code and rerun.
