@@ -1,6 +1,6 @@
 
 ## Train
-python train.py --dataroot ./datasets/train/rainy_image/ --name new2 --model derain
+python train.py --dataroot ./datasets/train/rainy_image/ --name new --model derain
 
 
 # Test
